@@ -1,13 +1,8 @@
 {
-  "name": "bucket",
+  "name": "node-mongo-bucket",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple bucket in node with mongodb",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Adrian De Palma Osses",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -18,5 +13,27 @@
     "mongoose": "^5.9.2",
     "morgan": "^1.9.1",
     "streamifier": "^0.1.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akaronte/node-mongo-bucket.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "bucket",
+    "nodejs",
+    "mongodb",
+    "microservices"
+  ],
+  "author": "Adrian De Palma Osses",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akaronte/node-mongo-bucket/issues"
+  },
+  "homepage": "https://github.com/Akaronte/node-mongo-bucket#readme"
 }
